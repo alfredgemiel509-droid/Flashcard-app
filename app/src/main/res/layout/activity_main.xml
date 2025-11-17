@@ -14,7 +14,10 @@
     android:layout_height="200dp"
     android:textSize="40sp"
     android:text="Who is the 44th president of the United States?"
-    android:gravity="center"/>
+    android:gravity="center"
+       android:background="#000"
+       android:elevation="8dp"
+    android: texteColor="#fff"/>
 
 
     <TextView
@@ -24,7 +27,9 @@
         android:textSize="40sp"
         android:text="Barak Obamat"
         android:gravity="center"
-        android:visibility="invisible"/>
+        android:visibility="invisible"
+        android:background="C1121f"
+        android: texteColor="#000/>
 
 
 </RelativeLayout>
